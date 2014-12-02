@@ -1,0 +1,68 @@
+---
+Name: sisconfig
+After: 'framework/*','cms/*'
+---
+DBField:
+  extensions:
+   - RichLinksExtension
+Site:
+  extensions:
+   - SISSite
+Block:
+  extensions:
+    - MultisitesAware
+BlockSet:
+  extensions:
+    - MultisitesAware
+FileField:
+  extensions:
+    - MultisitesFileFieldExtension
+HtmlEditorField_Toolbar:
+  extensions:
+    - MultisitesHtmlEditorField_ToolbarExtension
+Link:
+  extensions:
+    - LinkExtension
+TaxonomyTerm:
+  extensions:
+   - TaxonomyTermExtension
+BasePage:
+  extensions:
+   - MetadataExtension
+   - PageThumbnailExtension
+PaginatedList:
+  extensions:
+    - PaginatedListIterationExtension
+
+MetadataField:
+  extensions:
+   - AGLSMetadataFieldExtension
+File:
+  extensions:
+    - SISFileExtension
+GDBackend:
+  default_quality: 90
+#LeftAndMain:
+# extra_requirements_css:
+#   - 'sis/css/custom.css'
+Session:
+  timeout: 3600
+LeftAndMain:
+  session_keepalive_ping: false
+  menu_groups:
+    ReportAdmin: Administration
+    SecurityAdmin: Administration
+    DataChangeAdmin: Administration
+    QueuedJobsAdmin: Administration
+    TimedNoticeAdmin: Administration
+    AdvancedWorkflowAdmin: Administration
+  extra_requirements_css:
+    sis/css/cms-custom.css:
+      media: all
+PasswordField:
+  autocomplete: false
+Security:
+  login_recording: false
+Member:
+  lock_out_after_incorrect_logins: 5
+  lock_out_delay_mins: 15

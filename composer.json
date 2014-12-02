@@ -1,0 +1,28 @@
+{
+	"name": "silverstripe/ba-sis",
+	"description": "Ba-sis: the SilverStripe Australia standard implementation set.",
+	"require": {
+		"nglasl/silverstripe-extensible-search": "1.0.0",
+		"sheadawson/silverstripe-blocks": "dev-master#d0bd8f85c4c5e7bb284d5d4cfe0c1ee908b87225",
+		"sheadawson/silverstripe-datachange-tracker": "0.1.0",
+		"sheadawson/silverstripe-linkable": "dev-master#f8854a76a377c6ca501029d7b598fe577163fca2",
+		"sheadawson/silverstripe-multisites": "dev-master#4ce57c173e802a7754ed7cba7a58cf7684a4cd83",
+		"sheadawson/silverstripe-timednotices": "dev-master#1b6bd16c4470e790890802e4dd8830532fa444e9",
+		"silverstripe/advancedworkflow": "3.0.4",
+		"silverstripe/queuedjobs": "2.2.1",
+		"silverstripe/registry": "1.0.3",
+		"silverstripe/secureassets": "1.0.2",
+		"silverstripe/taxonomy": "1.0.3",
+		"silverstripe/userforms": "2.0.5",
+		"silverstripe/versionedfiles": "1.0.2",
+		"unclecheese/betterbuttons": "1.2.3",
+		"undefinedoffset/sortablegridfield": "0.3.2",
+
+		"ajshort/silverstripe-gridfieldextensions": "dev-master#7bf3cf9a319f35ca858385c8146685ee4bfc5ad0",
+		"sheadawson/quickaddnew": "1.0.1",
+		"silverstripe/display-logic": "1.0.4",
+		"silverstripe/multivaluefield": "dev-master#6ad6ae93c8e6367d6b17fd51662835015977d7b6",
+		"silverstripe/timepickerfield": "dev-master#3f889a2b0e81561f99c562f95a410207b6486086"
+	},
+	"minimum-stability": "dev"
+}
