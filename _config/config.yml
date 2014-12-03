@@ -42,9 +42,6 @@ File:
     - SISFileExtension
 GDBackend:
   default_quality: 90
-#LeftAndMain:
-# extra_requirements_css:
-#   - 'sis/css/custom.css'
 Session:
   timeout: 3600
 LeftAndMain:

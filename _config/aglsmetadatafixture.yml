@@ -2,7 +2,6 @@ MetadataSchema:
   AGLS:
     Title: "AGLS"
     Name: "AGLS"
-
 MetadataTextField:
   Title:
     Title: "DC.Title"
