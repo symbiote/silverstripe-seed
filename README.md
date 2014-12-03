@@ -1,3 +1,3 @@
-# ba-sis
+# ba-SIS
 
-Standard Implementation Set
+SilverStripe Australia Standard Implementation Set

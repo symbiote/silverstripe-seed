@@ -1,6 +1,6 @@
 {
 	"name": "silverstripe-australia/ba-sis",
-	"description": "Ba-sis: The SilverStripe Australia standard implementation set.",
+	"description": "ba-SIS: SilverStripe Australia Standard Implementation Set.",
 	"type": "silverstripe-module",
 	"license": "BSD-3-Clause",
 	"require": {
@@ -20,8 +20,8 @@
 		"unclecheese/betterbuttons": "1.2.3",
 		"undefinedoffset/sortablegridfield": "0.3.2",
 
-		"silverstripe-australia/gridfieldextensions": "dev-master#7bf3cf9a319f35ca858385c8146685ee4bfc5ad0",
 		"sheadawson/quickaddnew": "1.0.1",
+		"silverstripe-australia/gridfieldextensions": "dev-master#7bf3cf9a319f35ca858385c8146685ee4bfc5ad0",
 		"silverstripe/display-logic": "1.0.4",
 		"silverstripe/multivaluefield": "dev-master#6ad6ae93c8e6367d6b17fd51662835015977d7b6",
 		"silverstripe/timepickerfield": "dev-master#3f889a2b0e81561f99c562f95a410207b6486086"
