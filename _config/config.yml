@@ -47,12 +47,13 @@ Session:
 LeftAndMain:
   session_keepalive_ping: false
   menu_groups:
-    ReportAdmin: Administration
-    SecurityAdmin: Administration
-    DataChangeAdmin: Administration
-    QueuedJobsAdmin: Administration
-    TimedNoticeAdmin: Administration
-    AdvancedWorkflowAdmin: Administration
+    Administration:
+      - ReportAdmin
+      - SecurityAdmin
+      - DataChangeAdmin
+      - QueuedJobsAdmin
+      - TimedNoticeAdmin
+      - AdvancedWorkflowAdmin
   extra_requirements_css:
     sis/css/cms-custom.css:
       media: all
