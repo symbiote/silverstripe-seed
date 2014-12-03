@@ -1,7 +1,8 @@
 {
-	"name": "silverstripe/ba-sis",
-	"description": "Ba-sis: the SilverStripe Australia standard implementation set.",
+	"name": "silverstripe-australia/ba-sis",
+	"description": "Ba-sis: The SilverStripe Australia standard implementation set.",
 	"type": "silverstripe-module",
+	"license": "BSD-3-Clause",
 	"require": {
 		"nglasl/silverstripe-extensible-search": "1.0.0",
 		"sheadawson/silverstripe-blocks": "dev-master#d0bd8f85c4c5e7bb284d5d4cfe0c1ee908b87225",
