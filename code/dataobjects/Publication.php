@@ -1,5 +1,6 @@
 <?php
-class Publication extends DataObject implements RegistryDataInterface{
+
+class Publication extends DataObject {
 
 	private static $singular_name = "Publication";
 	private static $plural_name = "Publications";
