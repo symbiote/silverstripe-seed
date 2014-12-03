@@ -15,8 +15,8 @@ class DatedUpdateHolder extends Page {
 	public function UpdateTags() {
 		$holderIDs = implode(',', $this->getChildHolderIDs());
 		$tags = TaxonomyTerm::get()
-			->innerJoin('BasePage_Terms', '"TaxonomyTerm"."ID"="BasePage_Terms"."TaxonomyTermID"')
-			->innerJoin('SiteTree', "\"SiteTree\".\"ID\"=\"BasePage_Terms\".\"BasePageID\" AND \"SiteTree\".\"ParentID\" IN ($holderIDs)")
+			->innerJoin('SiteTree_Terms', '"TaxonomyTerm"."ID"="SiteTree_Terms"."TaxonomyTermID"')
+			->innerJoin('SiteTree', "\"SiteTree\".\"ID\"=\"SiteTree_Terms\".\"SiteTreeID\" AND \"SiteTree\".\"ParentID\" IN ($holderIDs)")
 			->sort('Name');
 
 		return $tags;
@@ -77,11 +77,11 @@ class DatedUpdateHolder extends Page {
 		// Filter down to a single tag.
 		if (isset($tagID)) {
 			$items = $items->innerJoin(
-					'BasePage_Terms',
-					'"DatedUpdatePage"."ID"="BasePage_Terms"."BasePageID"'
+					'SiteTree_Terms',
+					'"DatedUpdatePage"."ID"="SiteTree_Terms"."SiteTreeID"'
 				)->innerJoin(
 					'TaxonomyTerm',
-					"\"BasePage_Terms\".\"TaxonomyTermID\"=\"TaxonomyTerm\".\"ID\" AND \"TaxonomyTerm\".\"ID\"='$tagID'"
+					"\"SiteTree_Terms\".\"TaxonomyTermID\"=\"TaxonomyTerm\".\"ID\" AND \"TaxonomyTerm\".\"ID\"='$tagID'"
 				);
 		}
 

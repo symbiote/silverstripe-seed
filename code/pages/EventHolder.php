@@ -46,11 +46,11 @@ class EventHolder extends DatedUpdateHolder {
 		// Filter down to a single tag.
 		if (isset($tagID)) {
 			$items = $items->innerJoin(
-					'BasePage_Terms',
-					'"DatedUpdatePage"."ID"="BasePage_Terms"."BasePageID"'
+					'SiteTree_Terms',
+					'"DatedUpdatePage"."ID"="SiteTree_Terms"."SiteTreeID"'
 				)->innerJoin(
 					'TaxonomyTerm',
-					"\"BasePage_Terms\".\"TaxonomyTermID\"=\"TaxonomyTerm\".\"ID\" AND \"TaxonomyTerm\".\"ID\"='$tagID'"
+					"\"SiteTree_Terms\".\"TaxonomyTermID\"=\"TaxonomyTerm\".\"ID\" AND \"TaxonomyTerm\".\"ID\"='$tagID'"
 				);
 		}
 

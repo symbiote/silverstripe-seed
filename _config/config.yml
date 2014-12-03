@@ -5,6 +5,11 @@ After: 'framework/*','cms/*'
 DBField:
   extensions:
    - RichLinksExtension
+SiteTree:
+  extensions:
+    - SiteTreeTaxonomyExtension
+    - MetadataExtension
+    - PageThumbnailExtension
 Site:
   extensions:
    - SISSite
@@ -26,14 +31,9 @@ Link:
 TaxonomyTerm:
   extensions:
    - TaxonomyTermExtension
-BasePage:
-  extensions:
-   - MetadataExtension
-   - PageThumbnailExtension
 PaginatedList:
   extensions:
     - PaginatedListIterationExtension
-
 MetadataField:
   extensions:
    - AGLSMetadataFieldExtension
