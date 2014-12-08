@@ -8,7 +8,7 @@
 		"silverstripe/framework": "3.1.8",
 
 		"nglasl/silverstripe-extensible-search": "1.1.1",
-		"sheadawson/silverstripe-blocks": "dev-master#d0bd8f85c4c5e7bb284d5d4cfe0c1ee908b87225",
+		"sheadawson/silverstripe-blocks": "dev-master#2771313a27cc4747d238b6c6e9041290d8c4aa78",
 		"sheadawson/silverstripe-datachange-tracker": "0.1.0",
 		"sheadawson/silverstripe-linkable": "dev-master#f8854a76a377c6ca501029d7b598fe577163fca2",
 		"sheadawson/silverstripe-multisites": "dev-master#4ce57c173e802a7754ed7cba7a58cf7684a4cd83",
