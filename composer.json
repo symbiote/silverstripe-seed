@@ -4,8 +4,8 @@
 	"type": "silverstripe-module",
 	"license": "BSD-3-Clause",
 	"require": {
-		"silverstripe/cms": "3.1.8",
-		"silverstripe/framework": "3.1.8",
+		"silverstripe/cms": "3.1.7",
+		"silverstripe/framework": "3.1.7",
 
 		"nglasl/silverstripe-extensible-search": "1.1.1",
 		"sheadawson/silverstripe-blocks": "dev-master#2771313a27cc4747d238b6c6e9041290d8c4aa78",
