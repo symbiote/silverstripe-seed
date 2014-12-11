@@ -16,7 +16,7 @@
 		"silverstripe-australia/grouped-cms-menu": "2.1.1",
 		"silverstripe-australia/metadata": "2.0.0",
 		"silverstripe-australia/sitemap": "1.0.0",
-		"silverstripe/advancedworkflow": "3.0.4",
+		"silverstripe/advancedworkflow": "3.1.0",
 		"silverstripe/listingpage": "dev-master#074d923738194542386813eea6242ba60543a201",
 		"silverstripe/queuedjobs": "2.2.1",
 		"silverstripe/secureassets": "1.0.2",
