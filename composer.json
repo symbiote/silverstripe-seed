@@ -8,11 +8,11 @@
 		"silverstripe/framework": "3.1.8",
 
 		"nglasl/silverstripe-extensible-search": "1.1.3",
-		"sheadawson/silverstripe-blocks": "dev-master#2771313a27cc4747d238b6c6e9041290d8c4aa78",
+		"sheadawson/silverstripe-blocks": "0.1.0",
 		"sheadawson/silverstripe-datachange-tracker": "0.1.0",
-		"sheadawson/silverstripe-linkable": "dev-master#f8854a76a377c6ca501029d7b598fe577163fca2",
+		"sheadawson/silverstripe-linkable": "1.0.0",
 		"sheadawson/silverstripe-multisites": "dev-master#4ce57c173e802a7754ed7cba7a58cf7684a4cd83",
-		"sheadawson/silverstripe-timednotices": "dev-master#1b6bd16c4470e790890802e4dd8830532fa444e9",
+		"sheadawson/silverstripe-timednotices": "1.0.0",
 		"silverstripe-australia/grouped-cms-menu": "2.1.1",
 		"silverstripe-australia/metadata": "2.0.0",
 		"silverstripe-australia/sitemap": "1.0.0",
@@ -26,11 +26,11 @@
 		"unclecheese/betterbuttons": "1.2.3",
 		"undefinedoffset/sortablegridfield": "0.3.2",
 
-		"sheadawson/quickaddnew": "1.0.1",
+		"sheadawson/quickaddnew": "1.1",
 		"silverstripe-australia/gridfieldextensions": "1.0.3",
 		"silverstripe/display-logic": "1.0.4",
 		"silverstripe/multivaluefield": "dev-master#6ad6ae93c8e6367d6b17fd51662835015977d7b6",
-		"silverstripe/timepickerfield": "dev-master#3f889a2b0e81561f99c562f95a410207b6486086"
+		"silverstripe/timepickerfield": "1.0.0"
 	},
 	"extra": {
 		"branch-alias": {
