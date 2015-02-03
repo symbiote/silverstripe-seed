@@ -8,6 +8,7 @@
 		"silverstripe/framework": "3.1.9",
 
 		"nglasl/silverstripe-extensible-search": "1.1.3",
+		"nglasl/silverstripe-mediawesome": "1.0.1",
 		"sheadawson/silverstripe-blocks": "0.1.0",
 		"sheadawson/silverstripe-datachange-tracker": "0.1.0",
 		"sheadawson/silverstripe-linkable": "1.0.0",
