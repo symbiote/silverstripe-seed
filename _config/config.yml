@@ -60,7 +60,7 @@ LeftAndMain:
 PasswordField:
   autocomplete: false
 Security:
-  login_recording: false
+  login_recording: true
 Member:
   lock_out_after_incorrect_logins: 5
   lock_out_delay_mins: 15
