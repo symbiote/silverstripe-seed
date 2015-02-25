@@ -1,6 +1,6 @@
 FixtureLoader:
   preload_fixtures:
     metadatafixtures:
-      file: 'sis/_config/aglsmetadatafixture.yml'
+      file: 'ba-sis/_config/aglsmetadatafixture.yml'
       type: MetadataSchema
       filter: "Title = 'AGLS'"
