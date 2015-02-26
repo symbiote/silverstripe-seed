@@ -22,19 +22,21 @@ class CustomMenuBlock extends Block {
 
         $fields->removeFieldFromTab('Root', 'Items');
         
-        $config = GridFieldConfig_RecordEditor::create()
-            ->addComponent(new GridFieldOrderableRows());
+		if ($this->ID) {
+			$config = GridFieldConfig_RecordEditor::create()
+				->addComponent(new GridFieldOrderableRows());
             
-        $grid = GridField::create('Items', 'Items', $this->Items()->filter('ParentID', 0), $config);
+			$grid = GridField::create('Items', 'Items', $this->Items()->filter('ParentID', 0), $config);	
 
-        $config->getComponentByType('GridFieldDataColumns')
-        	->setDisplayFields(array(
-				'Title' => 'Menu Item Title',
-				'Children.Count' => 'Num Children'
-			));
+			$config->getComponentByType('GridFieldDataColumns')
+				->setDisplayFields(array(
+					'Title' => 'Menu Item Title',
+					'Children.Count' => 'Num Children'
+				));
 
-		$fields->addFieldToTab('Root.Main', HeaderField::create('ItemsHeader', 'Menu Items'));
-        $fields->addFieldToTab('Root.Main', $grid);
+			$fields->addFieldToTab('Root.Main', HeaderField::create('ItemsHeader', 'Menu Items'));
+			$fields->addFieldToTab('Root.Main', $grid);
+		}
 
         return $fields;
     }
