@@ -55,7 +55,7 @@ LeftAndMain:
       - TimedNoticeAdmin
       - AdvancedWorkflowAdmin
   extra_requirements_css:
-    sis/css/cms-custom.css:
+    ba-sis/css/cms-custom.css:
       media: all
 PasswordField:
   autocomplete: false
