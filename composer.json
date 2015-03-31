@@ -19,7 +19,7 @@
 		"silverstripe-australia/sitemap": "~1.0",
 		"silverstripe/advancedworkflow": "~3.1",
 		"silverstripe/listingpage": "~1.0",
-		"silverstripe/queuedjobs": "~2.3",
+		"silverstripe/queuedjobs": "~2.4",
 		"silverstripe/secureassets": "~1.0",
 		"silverstripe/taxonomy": "~1.0",
 		"silverstripe/userforms": "~2.0",
