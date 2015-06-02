@@ -11,7 +11,7 @@
 		"nglasl/silverstripe-mediawesome": "~1.0",
 		"sheadawson/silverstripe-blocks": "~1.0",
 		"sheadawson/silverstripe-datachange-tracker": "~2.0",
-		"sheadawson/silverstripe-linkable": "~1.0",
+		"sheadawson/silverstripe-linkable": "~1.1",
 		"sheadawson/silverstripe-timednotices": "~1.0",
 		"silverstripe-australia/grouped-cms-menu": "~2.1",
 		"silverstripe-australia/metadata": "~2.0",
