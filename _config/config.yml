@@ -2,6 +2,9 @@
 Name: sisconfig
 After: 'framework/*','cms/*'
 ---
+AssetAdmin:
+  extensions:
+    - AssetAdminSyncFilesExtension
 DBField:
   extensions:
    - RichLinksExtension
