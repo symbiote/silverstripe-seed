@@ -27,6 +27,7 @@ class LinksBlock extends Block {
 			GridFieldConfig_RelationEditor::create()
 				->addComponent(new GridFieldOrderableRows())
 				->removeComponentsByType('GridFieldAddExistingAutocompleter')
+				->addComponent(new GridFieldAddExistingSearchButton())
 		));
 
 		return $fields;
