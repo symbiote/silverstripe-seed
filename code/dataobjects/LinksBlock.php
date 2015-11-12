@@ -21,14 +21,16 @@ class LinksBlock extends Block {
 
 		$fields->removeFieldFromTab('Root', 'Links');
 		$fields->addFieldToTab('Root.Main', HeaderField::create('LinksHeader', 'Quick Links'));
-		$fields->addFieldToTab(
-			'Root.Main', 
-			GridField::create('Links', 'Links', $this->getItems(), 
-			GridFieldConfig_RelationEditor::create()
-				->addComponent(new GridFieldOrderableRows())
-				->removeComponentsByType('GridFieldAddExistingAutocompleter')
-				->addComponent(new GridFieldAddExistingSearchButton())
-		));
+		if ($this->ID) {
+			$fields->addFieldToTab(
+				'Root.Main', 
+				GridField::create('Links', 'Links', $this->getItems(), 
+				GridFieldConfig_RelationEditor::create()
+					->addComponent(new GridFieldOrderableRows())
+					->removeComponentsByType('GridFieldAddExistingAutocompleter')
+					->addComponent(new GridFieldAddExistingSearchButton())
+			));
+		}
 
 		return $fields;
 	}
