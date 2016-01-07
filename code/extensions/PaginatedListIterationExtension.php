@@ -1,11 +1,12 @@
 <?php
 
-class PaginatedListIterationExtension extends Extension {
+class PaginatedListIterationExtension extends Extension
+{
 
-	public function currentIteration($position = null) {
-		if($position) {
-			return ($this->owner->FirstItem() + $position - 1);
-		}
-	}
-
+    public function currentIteration($position = null)
+    {
+        if ($position) {
+            return ($this->owner->FirstItem() + $position - 1);
+        }
+    }
 }

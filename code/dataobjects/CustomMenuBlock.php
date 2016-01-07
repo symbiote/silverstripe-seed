@@ -4,39 +4,41 @@
  * @author Shea Dawson <shea@silverstripe.com.au>
  * @package ba-sis
  **/
-class CustomMenuBlock extends Block {
-	
+class CustomMenuBlock extends Block
+{
+    
     private static $singular_name = 'Custom Menu Block';
     private static $plural_name = 'Custom Menu Blocks';
 
-	private static $db = array(
-		
-	);
+    private static $db = array(
+        
+    );
 
-	private static $has_many = array(
-		'Items' => 'CustomMenuBlockItem'
-	);
+    private static $has_many = array(
+        'Items' => 'CustomMenuBlockItem'
+    );
 
-	public function getCMSFields(){
+    public function getCMSFields()
+    {
         $fields = parent::getCMSFields();
 
         $fields->removeFieldFromTab('Root', 'Items');
         
-		if ($this->ID) {
-			$config = GridFieldConfig_RecordEditor::create()
-				->addComponent(new GridFieldOrderableRows());
+        if ($this->ID) {
+            $config = GridFieldConfig_RecordEditor::create()
+                ->addComponent(new GridFieldOrderableRows());
             
-			$grid = GridField::create('Items', 'Items', $this->Items()->filter('ParentID', 0), $config);	
+            $grid = GridField::create('Items', 'Items', $this->Items()->filter('ParentID', 0), $config);
 
-			$config->getComponentByType('GridFieldDataColumns')
-				->setDisplayFields(array(
-					'Title' => 'Menu Item Title',
-					'Children.Count' => 'Num Children'
-				));
+            $config->getComponentByType('GridFieldDataColumns')
+                ->setDisplayFields(array(
+                    'Title' => 'Menu Item Title',
+                    'Children.Count' => 'Num Children'
+                ));
 
-			$fields->addFieldToTab('Root.Main', HeaderField::create('ItemsHeader', 'Menu Items'));
-			$fields->addFieldToTab('Root.Main', $grid);
-		}
+            $fields->addFieldToTab('Root.Main', HeaderField::create('ItemsHeader', 'Menu Items'));
+            $fields->addFieldToTab('Root.Main', $grid);
+        }
 
         return $fields;
     }
@@ -46,7 +48,8 @@ class CustomMenuBlock extends Block {
      * Method for use in templates to loop over menu items
      * @return DataList
      **/
-    public function MenuItems(){
-    	return $this->Items()->filter('ParentID', 0);
+    public function MenuItems()
+    {
+        return $this->Items()->filter('ParentID', 0);
     }
 }
