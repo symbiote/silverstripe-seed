@@ -26,7 +26,7 @@
 		"silverstripe/versionedfiles": "~1.0",
 		
 		"unclecheese/betterbuttons": "~1.2.0",
-		"undefinedoffset/sortablegridfield": "~0.4.0",
+		"undefinedoffset/sortablegridfield": "~0.4",
 
 		"sheadawson/quickaddnew": "~1.1",
 		"silverstripe-australia/gridfieldextensions": "~1.0",
