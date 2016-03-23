@@ -7,7 +7,7 @@
 		"silverstripe/cms": "~3.1",
 		"silverstripe/framework": "~3.1",
 
-		"nglasl/silverstripe-extensible-search": "~2.1",
+		"nglasl/silverstripe-extensible-search": "~2.0",
 		"nglasl/silverstripe-mediawesome": "~1.0",
 		"sheadawson/silverstripe-blocks": "~1.0",
 		"sheadawson/silverstripe-datachange-tracker": "~2.0",
