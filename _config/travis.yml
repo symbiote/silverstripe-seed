@@ -1,0 +1,6 @@
+GridFieldDetailFormTest_Person:
+  better_buttons_enabled: false
+GridFieldDetailFormTest_PeopleGroup:
+  better_buttons_enabled: false
+GridFieldDetailFormTest_Category:
+  better_buttons_enabled: false

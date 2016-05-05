@@ -7,7 +7,7 @@ class PageThumbnailExtension extends DataExtension {
 	);
 
 	public function updateCMSFields(FieldList $fields) {
-		if ($this->owner->Site()->hasFeature('PageThumbnails')){
+		if (class_exists('Multisites') && $this->owner->Site()->hasFeature('PageThumbnails')){
 			$fields->addFieldToTab('Root.Main', $thumb = UploadField::create('PageThumbnail', 'Page Thumbnail'));
 			$thumb->getValidator()->allowedExtensions = array('jpg', 'gif', 'png');
 		}

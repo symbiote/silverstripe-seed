@@ -1,4 +1,22 @@
 ---
+Name: sismultisitesconfig
+After: 'framework/*','cms/*'
+Only:
+  moduleexists: 'multisites'
+---
+Block:
+  extensions:
+    - MultisitesAware
+BlockSet:
+  extensions:
+    - MultisitesAware
+HtmlEditorField_Toolbar:
+  extensions:
+    - MultisitesHtmlEditorField_ToolbarExtension
+FileField:
+  extensions:
+    - MultisitesFileFieldExtension
+---
 Name: sisconfig
 After: 'framework/*','cms/*'
 ---
@@ -16,18 +34,6 @@ SiteTree:
 Site:
   extensions:
    - SISSite
-Block:
-  extensions:
-    - MultisitesAware
-BlockSet:
-  extensions:
-    - MultisitesAware
-FileField:
-  extensions:
-    - MultisitesFileFieldExtension
-HtmlEditorField_Toolbar:
-  extensions:
-    - MultisitesHtmlEditorField_ToolbarExtension
 Link:
   extensions:
     - LinkExtension
