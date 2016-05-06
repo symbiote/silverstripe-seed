@@ -83,7 +83,9 @@ class TaxonomyTermExtension extends DataExtension {
      */
     public static function create_field($name, $title = null) {
         // Get taxonomies to select
-        $sourceCallback = array(__CLASS__, 'get_source');
+        $sourceCallback = function() {
+            return call_user_func(array(__CLASS__, 'get_source'));
+        };
         $result = ListboxField::create($name, $title, $sourceCallback(), null, null, true);
         $result->useAddNew(
                 'TaxonomyTerm', 
