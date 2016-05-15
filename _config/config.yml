@@ -73,3 +73,6 @@ Security:
 Member:
   lock_out_after_incorrect_logins: 5
   lock_out_delay_mins: 15
+FusionService:
+  custom_tag_types:
+    TaxonomyTerm: 'Name'
