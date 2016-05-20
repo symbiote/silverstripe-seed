@@ -1,4 +1,28 @@
 ---
+Name: sisconfigblocks
+After: 'framework/*','cms/*'
+Only:
+  moduleexists: 'blocks'
+---
+Block:
+  extensions:
+    - ChangeRecordable
+BlockSet:
+  extensions:
+    - ChangeRecordable
+---
+Name: sisconfigelemental
+After: 'framework/*','cms/*'
+Only:
+  moduleexists: 'elemental'
+---
+ElementalArea:
+  extensions:
+    - ChangeRecordable
+BaseElement:
+  extensions:
+    - ChangeRecordable
+---
 Name: sismultisitesconfig
 After: 'framework/*','cms/*'
 Only:
@@ -31,7 +55,7 @@ SiteTree:
     - SiteTreeTaxonomyExtension
     - MetadataExtension
     - PageThumbnailExtension
-    - ChangeRecordable
+    - SiteTreeChangeRecordable
 Site:
   extensions:
    - SISSite
