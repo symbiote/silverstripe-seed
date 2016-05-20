@@ -31,11 +31,6 @@ SiteTree:
     - SiteTreeTaxonomyExtension
     - MetadataExtension
     - PageThumbnailExtension
-SiteTree:
-  extensions:
-    - ChangeRecordable
-File:
-  extensions:
     - ChangeRecordable
 Site:
   extensions:
@@ -55,6 +50,7 @@ MetadataField:
 File:
   extensions:
     - SISFileExtension
+    - ChangeRecordable
 GDBackend:
   default_quality: 90
 Session:
