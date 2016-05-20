@@ -1,4 +1,28 @@
 ---
+Name: sisconfigblocks
+After: 'framework/*','cms/*'
+Only:
+  moduleexists: 'blocks'
+---
+Block:
+  extensions:
+    - ChangeRecordable
+BlockSet:
+  extensions:
+    - ChangeRecordable
+---
+Name: sisconfigelemental
+After: 'framework/*','cms/*'
+Only:
+  moduleexists: 'elemental'
+---
+ElementalArea:
+  extensions:
+    - ChangeRecordable
+BaseElement:
+  extensions:
+    - ChangeRecordable
+---
 Name: sismultisitesconfig
 After: 'framework/*','cms/*'
 Only:
@@ -31,6 +55,7 @@ SiteTree:
     - SiteTreeTaxonomyExtension
     - MetadataExtension
     - PageThumbnailExtension
+    - SiteTreeChangeRecordable
 Site:
   extensions:
    - SISSite
@@ -49,6 +74,7 @@ MetadataField:
 File:
   extensions:
     - SISFileExtension
+    - ChangeRecordable
 GDBackend:
   default_quality: 90
 Session:
