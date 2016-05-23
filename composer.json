@@ -10,7 +10,6 @@
 		"nglasl/silverstripe-extensible-search": "~2.0",
 		"nglasl/silverstripe-fusion": "~1.0",
 		"nglasl/silverstripe-mediawesome": "~1.0",
-		"sheadawson/silverstripe-blocks": "~1.0",
 		"silverstripe-australia/datachange-tracker": "~2.0",
 		"sheadawson/silverstripe-linkable": "~1.0",
 		"sheadawson/silverstripe-timednotices": "~1.0",
@@ -35,9 +34,13 @@
 		"silverstripe/multivaluefield": "~2.0",
 		"silverstripe/timepickerfield": "~1.0"
 	},
+        "suggest": {
+                "sheadawson/silverstripe-blocks": "This module allows a modular approach to building a page layout.",
+                "dnadesign/silverstripe-elemental": "This module allows a modular approach to building page content."
+        },
 	"extra": {
 		"branch-alias": {
-			"dev-master": "2.2.x-dev"
+			"dev-master": "3.0.x-dev"
 		}
 	},
 	"minimum-stability": "dev"
