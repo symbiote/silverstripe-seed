@@ -102,3 +102,6 @@ Member:
 FusionService:
   custom_tag_types:
     TaxonomyTerm: 'Name'
+UserDefinedForm_EmailRecipient:
+  extensions:
+    - 'UserDefinedFormEmailRecipientExtension'
