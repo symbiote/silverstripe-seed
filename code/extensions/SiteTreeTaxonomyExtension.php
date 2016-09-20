@@ -7,6 +7,6 @@ class SiteTreeTaxonomyExtension extends DataExtension {
 	);
 
 	public function updateCMSFields(FieldList $fields) {
-		$fields->addFieldToTab('Root.Main', TaxonomyTermExtension::create_field('Terms', 'Terms'), 'Content');
+		$fields->addFieldToTab('Root.Main', BasisTaxonomyTermExtension::create_field('Terms', 'Terms'), 'Content');
 	}
 }
