@@ -1,5 +1,5 @@
 <?php
-class TaxonomyTermExtension extends DataExtension {
+class BasisTaxonomyTermExtension extends DataExtension {
 
 	private static $api_access = true;
 
@@ -8,6 +8,8 @@ class TaxonomyTermExtension extends DataExtension {
 	);
 
     public function updateCMSFields(FieldList $fields) {
+        $childrenField = $fields->dataFieldByName('Children');
+        $fields->removeByName(array('Pages', 'Children'));
         if ($this->owner->CanBeTagged)
         {
             $field = $this->owner->createReverseTagField('Pages');
@@ -16,6 +18,10 @@ class TaxonomyTermExtension extends DataExtension {
                 $fields->removeByName($field->getName());
                 $fields->addFieldToTab('Root.Main', $field);
             }
+        }
+        // Move $Children to end of main tab.
+        if ($childrenField) {
+            $fields->addFieldToTab('Root.Main', $childrenField);
         }
     }
 
