@@ -64,7 +64,7 @@ Link:
     - LinkExtension
 TaxonomyTerm:
   extensions:
-   - TaxonomyTermExtension
+   - BasisTaxonomyTermExtension
 PaginatedList:
   extensions:
     - PaginatedListIterationExtension
