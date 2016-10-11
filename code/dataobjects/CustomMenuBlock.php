@@ -1,4 +1,9 @@
 <?php
+
+if (!class_exists('Block')) {
+	return;
+}
+
 /**
  * A block that allows end users to manually build a custom (flat or nested) menu  
  * @author Shea Dawson <shea@silverstripe.com.au>
