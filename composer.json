@@ -30,7 +30,7 @@
 
 		"sheadawson/quickaddnew": "~1.1",
 		"silverstripe-australia/gridfieldextensions": "~1.0",
-		"silverstripe/display-logic": "~1.4",
+		"unclecheese/display-logic": "~1.4",
 		"silverstripe/multivaluefield": "~2.2",
 		"silverstripe/timepickerfield": "~1.0"
 	},
