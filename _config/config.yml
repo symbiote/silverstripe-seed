@@ -41,6 +41,21 @@ FileField:
   extensions:
     - MultisitesFileFieldExtension
 ---
+Name: sisspamprotectionconfig
+After: 'framework/*','cms/*'
+---
+FormSpamProtectionExtension:
+  default_spam_protector: '\StudioBonito\SilverStripe\SpamProtection\Honeypot\SpamProtector\HoneypotSpamProtector'
+UserDefinedForm:
+  extensions:
+    - BasisUserDefinedFormSpamProtectionExtension
+UserForm:
+  extensions:
+    - BasisUserFormSpamProtectionExtension
+Form:
+  extensions:
+    - BasisFormProtectionExtension
+---
 Name: sisconfig
 After: 'framework/*','cms/*'
 ---
