@@ -16,8 +16,18 @@ class BasisSpamProtectionForm extends Form
 
 		parent::__construct($controller, $name, $fields, $actions, $validator);
 
-		if(!$this->isExcluded() && $this->hasExtension('FormSpamProtectionExtension')) {
-		    $this->enableSpamProtection();
+		$captcha = true;
+		if ($controller instanceof LeftAndMain ||
+			$controller instanceof TaskRunner ||
+			$controller instanceof Security ||
+			$controller instanceof DevelopmentAdmin ||
+			$controller instanceof DevBuildController ||
+			$controller instanceof DatabaseAdmin) {
+			$captcha = false;
+		}
+
+		if($captcha && $this->hasExtension('FormSpamProtectionExtension') && !$this->isExcluded()) {
+			$this->enableSpamProtection();
 		}
 	}
 
