@@ -6,7 +6,16 @@ class BasisFormProtectionExtension extends Extension
 
 	public function updateForm()
 	{
-		if(!$this->owner->isExcluded() && $this->owner->hasExtension('FormSpamProtectionExtension')) {
+		if ($this->owner->controller instanceof LeftAndMain ||
+			$this->owner->controller instanceof TaskRunner ||
+			$this->owner->controller instanceof Security ||
+			$this->owner->controller instanceof DevelopmentAdmin ||
+			$this->owner->controller instanceof DevBuildController ||
+			$this->owner->controller instanceof DatabaseAdmin) {
+			return;
+		}
+		
+		if($this->owner->hasExtension('FormSpamProtectionExtension') && !$this->owner->isExcluded()) {
 			$this->owner->enableSpamProtection();
 		}
 	}
