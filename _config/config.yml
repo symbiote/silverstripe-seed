@@ -55,6 +55,9 @@ UserForm:
 Form:
   extensions:
     - BasisFormProtectionExtension
+BasisFormProtectionExtension:
+  controllers:
+    - Page_Controller
 ---
 Name: sisconfig
 After: 'framework/*','cms/*'

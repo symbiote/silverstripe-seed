@@ -2,23 +2,38 @@
 
 class BasisFormProtectionExtension extends Extension
 {
+	private static $controllers = array();
+	private static $includes = array();
 	private static $excludes = array();
 
 	public function updateForm()
 	{
-		if ($this->owner->controller instanceof LeftAndMain ||
-			$this->owner->controller instanceof TaskRunner ||
-			$this->owner->controller instanceof Security ||
-			$this->owner->controller instanceof DevelopmentAdmin ||
-			$this->owner->controller instanceof DevBuildController ||
-			$this->owner->controller instanceof DatabaseAdmin ||
-			$this->owner->controller instanceof GridFieldDetailForm_ItemRequest) {
-			return;
-		}
-		
-		if($this->owner->hasExtension('FormSpamProtectionExtension') && !$this->owner->isExcluded()) {
+		if($this->owner->hasExtension('FormSpamProtectionExtension') &&
+			($this->usesIncludesController() || $this->isIncluded()) &&
+			!$this->owner->isExcluded()) {
+			
 			$this->owner->enableSpamProtection();
 		}
+	}
+
+	public function usesIncludesController()
+	{
+		$controllers = Config::inst()->get(__CLASS__, 'controllers');
+		foreach(ClassInfo::ancestry($this->owner->controller) as $controller) {
+			if(isset($controllers[$controller])) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	public function isIncluded()
+	{
+		$includes = Config::inst()->get(__CLASS__, 'includes');
+		if(in_array($this->owner->name, $includes)) {
+			return true;
+		}
+		return false;
 	}
 
 	public function isExcluded()

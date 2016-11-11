@@ -2,6 +2,8 @@
 
 class BasisSpamProtectionForm extends Form
 {
+	private static $controllers = array();
+	private static $includes = array();
 	private static $excludes = array();
 
 	public function __construct($controller, $name, FieldList $fields = null, FieldList $actions = null, $validator = null)
@@ -16,20 +18,32 @@ class BasisSpamProtectionForm extends Form
 
 		parent::__construct($controller, $name, $fields, $actions, $validator);
 
-		$captcha = true;
-		if ($controller instanceof LeftAndMain ||
-			$controller instanceof TaskRunner ||
-			$controller instanceof Security ||
-			$controller instanceof DevelopmentAdmin ||
-			$controller instanceof DevBuildController ||
-			$controller instanceof DatabaseAdmin ||
-			$controller instanceof GridFieldDetailForm_ItemRequest) {
-			$captcha = false;
-		}
-
-		if($captcha && $this->hasExtension('FormSpamProtectionExtension') && !$this->isExcluded()) {
+		if($this->hasExtension('FormSpamProtectionExtension') &&
+			($this->usesIncludesController() || $this->isIncluded()) &&
+			!$this->isExcluded()) {
+			
 			$this->enableSpamProtection();
 		}
+	}
+
+	public function usesIncludesController()
+	{
+		$controllers = Config::inst()->get(__CLASS__, 'controllers');
+		foreach(ClassInfo::ancestry($this->controller) as $controller) {
+			if(isset($controllers[$controller])) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	public function isIncluded()
+	{
+		$includes = Config::inst()->get(__CLASS__, 'includes');
+		if(in_array($this->name, $includes)) {
+			return true;
+		}
+		return false;
 	}
 
 	public function isExcluded()
