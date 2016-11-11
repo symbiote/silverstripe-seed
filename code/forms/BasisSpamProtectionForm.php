@@ -22,7 +22,8 @@ class BasisSpamProtectionForm extends Form
 			$controller instanceof Security ||
 			$controller instanceof DevelopmentAdmin ||
 			$controller instanceof DevBuildController ||
-			$controller instanceof DatabaseAdmin) {
+			$controller instanceof DatabaseAdmin ||
+			$controller instanceof GridFieldDetailForm_ItemRequest) {
 			$captcha = false;
 		}
 

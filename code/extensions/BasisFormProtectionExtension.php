@@ -11,7 +11,8 @@ class BasisFormProtectionExtension extends Extension
 			$this->owner->controller instanceof Security ||
 			$this->owner->controller instanceof DevelopmentAdmin ||
 			$this->owner->controller instanceof DevBuildController ||
-			$this->owner->controller instanceof DatabaseAdmin) {
+			$this->owner->controller instanceof DatabaseAdmin ||
+			$this->owner->controller instanceof GridFieldDetailForm_ItemRequest) {
 			return;
 		}
 		
