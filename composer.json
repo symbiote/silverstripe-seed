@@ -32,7 +32,8 @@
 		"silverstripe-australia/gridfieldextensions": "~1.0",
 		"unclecheese/display-logic": "~1.4",
 		"silverstripe/multivaluefield": "~2.2",
-		"silverstripe/timepickerfield": "~1.0"
+		"silverstripe/timepickerfield": "~1.0",
+		"studiobonito/silverstripe-spamprotection-honeypot": "~1.1"
 	},
         "suggest": {
                 "sheadawson/silverstripe-blocks": "This module allows a modular approach to building a page layout.",

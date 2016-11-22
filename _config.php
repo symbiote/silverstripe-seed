@@ -22,3 +22,7 @@ SS_Report::add_excluded_reports(array(
 	'Multisites_SideReport_BrokenVirtualPages',
 	'Multisites_SideReport_BrokenRedirectorPages'
 ));
+
+// If you want all base Form objects to automatically have spam protection enabled,
+// uncomment the following line
+// Object::useCustomClass('Form', 'BasisSpamProtectionForm', true);
