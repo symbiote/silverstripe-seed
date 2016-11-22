@@ -19,7 +19,7 @@ class BasisFormProtectionExtension extends Extension
 	public function usesIncludesController()
 	{
 		$controllers = Config::inst()->get(__CLASS__, 'controllers');
-		foreach(ClassInfo::ancestry($this->owner->controller) as $controller) {
+		foreach(ClassInfo::ancestry($this->owner->getController()) as $controller) {
 			if(isset($controllers[$controller])) {
 				return true;
 			}
@@ -30,7 +30,7 @@ class BasisFormProtectionExtension extends Extension
 	public function isIncluded()
 	{
 		$includes = Config::inst()->get(__CLASS__, 'includes');
-		if(in_array($this->owner->name, $includes)) {
+		if(in_array($this->owner->getName(), $includes)) {
 			return true;
 		}
 		return false;
@@ -39,7 +39,7 @@ class BasisFormProtectionExtension extends Extension
 	public function isExcluded()
 	{
 		$excludes = Config::inst()->get(__CLASS__, 'excludes');
-		if(in_array($this->owner->name, $excludes)) {
+		if(in_array($this->owner->getName(), $excludes)) {
 			return true;
 		}
 		return false;
