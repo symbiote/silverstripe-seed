@@ -105,3 +105,6 @@ FusionService:
 UserDefinedForm_EmailRecipient:
   extensions:
     - 'UserDefinedFormEmailRecipientExtension'
+CountryDropdownField:
+  default_to_locale: false
+  default_country: 'AU'
