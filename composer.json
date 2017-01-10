@@ -34,7 +34,15 @@
 	},
 	"suggest": {
 		"dnadesign/silverstripe-elemental": "This allows a modular approach to building page content.",
-		"sheadawson/silverstripe-blocks": "This allows a modular approach to building a page layout."
+		"nyeholt/silverstripe-ozzymental": "This supports the modular approach to building page content.",
+		"sheadawson/silverstripe-blocks": "This allows a modular approach to building a page layout.",
+		"tractorcow/silverstripe-dynamiccache": "This allows simple yet flexible caching out of the box for dynamic content, including forms.",
+
+		"andrelohmann-silverstripe/cache-backends": "AWS cache support.",
+		"nyeholt/silverstripe-restrictedcms": "AWS load support.",
+		"silverstripe-australia/mailcapture": "AWS mail support.",
+		"silverstripe-australia/silverstripe-sesmail": "AWS mail support.",
+		"silverstripe/s3cdn": "AWS file support."
 	},
 	"extra": {
 		"branch-alias": {
