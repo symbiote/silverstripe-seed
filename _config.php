@@ -6,7 +6,7 @@ $validator = new PasswordValidator();
 
 // The minimum length may be lowered when required.
 
-$validator->minLength(10);
+$validator->minLength(8);
 $validator->characterStrength(2 ,array(
 	'lowercase',
 	'uppercase',
