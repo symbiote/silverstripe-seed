@@ -42,6 +42,7 @@
 		"nyeholt/silverstripe-restrictedcms": "AWS load support.",
 		"silverstripe-australia/mailcapture": "AWS mail support.",
 		"silverstripe-australia/silverstripe-sesmail": "AWS mail support.",
+		"silverstripe-australia/silverstripe-sqs-jobqueue": "AWS queued job support.",
 		"silverstripe/s3cdn": "AWS file support."
 	},
 	"extra": {
