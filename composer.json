@@ -23,6 +23,7 @@
 		"silverstripe/taxonomy": "~1.0",
 		"silverstripe/userforms": "~3.0",
 		"silverstripe/versionedfiles": "~1.0",
+		"wilr/silverstripe-googlesitemaps": "~1.6",
 
 		"sheadawson/quickaddnew": "~1.1",
 		"silverstripe-australia/gridfieldextensions": "~1.0",
