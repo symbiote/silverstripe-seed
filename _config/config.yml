@@ -93,6 +93,7 @@ LeftAndMain:
       - SecurityAdmin
       - CMSSettingsController
       - TimedNoticeAdmin
+  menu_groups_alphabetical_sorting: true
   extra_requirements_css:
     ba-sis/css/cms-custom.css:
       media: all
