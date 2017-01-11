@@ -84,11 +84,11 @@ LeftAndMain:
   menu_groups:
     Modules:
       - ListingAdmin
-      - MetadataAdmin
       - TaxonomyAdmin
     Administration:
       - DataChangeAdmin
       - QueuedJobsAdmin
+      - MetadataAdmin
       - ReportAdmin
       - SecurityAdmin
       - CMSSettingsController
