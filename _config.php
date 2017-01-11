@@ -1,5 +1,9 @@
 <?php
 
+// Remove any CMS tabs that only add noise.
+
+CMSMenu::remove_menu_item('FusionAdmin');
+
 // Add a password complexity validator.
 
 $validator = new PasswordValidator();

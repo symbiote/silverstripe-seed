@@ -82,13 +82,17 @@ Session:
 LeftAndMain:
   session_keepalive_ping: false
   menu_groups:
+    Modules:
+      - ListingAdmin
+      - MetadataAdmin
+      - TaxonomyAdmin
     Administration:
-      - ReportAdmin
-      - SecurityAdmin
       - DataChangeAdmin
       - QueuedJobsAdmin
+      - ReportAdmin
+      - SecurityAdmin
+      - CMSSettingsController
       - TimedNoticeAdmin
-      - AdvancedWorkflowAdmin
   extra_requirements_css:
     ba-sis/css/cms-custom.css:
       media: all
