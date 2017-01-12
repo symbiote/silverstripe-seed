@@ -10,6 +10,7 @@
 		"nglasl/silverstripe-extensible-search": "~3.0",
 		"nglasl/silverstripe-fusion": "~2.0",
 		"nglasl/silverstripe-mediawesome": "~2.0",
+		"sheadawson/multisites-googleanalytics": "dev-master",
 		"sheadawson/silverstripe-linkable": "~1.0",
 		"sheadawson/silverstripe-timednotices": "~1.0",
 		"silverstripe-australia/datachange-tracker": "~3.2",
