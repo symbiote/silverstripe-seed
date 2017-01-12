@@ -6,7 +6,7 @@
 class SISSite extends DataExtension {
 
 	private static $db = array(
-		'GACode' => 'Varchar(16)',
+		'GACode' => 'Varchar(16)', // This remains for backward compatibility.
 		'FacebookURL' => 'Varchar(256)', // multitude of ways to link to Facebook accounts, best to leave it open.
 		'TwitterUsername' => 'Varchar(16)', // max length of Twitter username 15
 		'AddThisProfileID' => 'Varchar(32)'
@@ -21,8 +21,6 @@ class SISSite extends DataExtension {
 	);
 
 	public function updateSiteCMSFields(FieldList $fields) {
-		$fields->addFieldToTab('Root.Main', $gaCode = new TextField('GACode', 'Google Analytics account'));
-		$gaCode->setRightTitle('Account number to be used all across the site (in the format <strong>UA-XXXXX-X</strong>)');
 
 		$fields->addFieldToTab('Root.SocialMedia', $facebookURL = new TextField('FacebookURL', 'Facebook UID or username'));
 		$facebookURL->setRightTitle('Facebook link (everything after the "http://facebook.com/", eg http://facebook.com/<strong>username</strong> or http://facebook.com/<strong>pages/108510539573</strong>)');

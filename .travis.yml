@@ -27,6 +27,7 @@ before_script:
   - cd ~/builds/ss
 # These cause issues during tests.
   - rm -r multisites
+  - rm -r multisites-googleanalytics
 # This causes issues with SS 3.2 during tests.
   - rm -r versionedfiles
 # This causes issues with SS 3.2 and PHP 5.6 during tests.
