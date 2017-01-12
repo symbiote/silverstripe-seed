@@ -56,6 +56,7 @@ SiteTree:
     - MetadataExtension
     - PageThumbnailExtension
     - SiteTreeChangeRecordable
+    - GoogleSitemapSiteTreeExtension
 Site:
   extensions:
    - SISSite
@@ -113,3 +114,6 @@ UserDefinedForm_EmailRecipient:
 CountryDropdownField:
   default_to_locale: false
   default_country: 'AU'
+QueuedJobsAdmin:
+  extensions:
+    - 'QueuedJobsAdminSitemapExtension'
