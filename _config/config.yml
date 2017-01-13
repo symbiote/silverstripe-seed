@@ -40,6 +40,9 @@ HtmlEditorField_Toolbar:
 FileField:
   extensions:
     - MultisitesFileFieldExtension
+GoogleSitemap:
+  extensions:
+    - MultisitesGoogleSitemapExtension
 ---
 Name: sisconfig
 After: 'framework/*','cms/*'
