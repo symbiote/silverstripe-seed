@@ -12,7 +12,7 @@
 		"nglasl/silverstripe-mediawesome": "~2.0",
 		"sheadawson/multisites-googleanalytics": "~1.0",
 		"sheadawson/silverstripe-linkable": "~1.0",
-		"sheadawson/silverstripe-timednotices": "~1.0",
+		"sheadawson/silverstripe-timednotices": "dev-master",
 		"silverstripe-australia/datachange-tracker": "~3.2",
 		"silverstripe-australia/grouped-cms-menu": "~2.1",
 		"silverstripe-australia/metadata": "~3.0",
