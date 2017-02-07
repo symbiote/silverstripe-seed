@@ -105,8 +105,8 @@ PasswordField:
   autocomplete: false
 Security:
   login_recording: true
-    extensions:
-      - 'SecurityLoginExtension'
+  extensions:
+    - 'SecurityLoginExtension'
 Member:
   lock_out_after_incorrect_logins: 5
   lock_out_delay_mins: 15
