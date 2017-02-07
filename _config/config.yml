@@ -116,6 +116,9 @@ FusionService:
 UserDefinedForm_EmailRecipient:
   extensions:
     - 'UserDefinedFormEmailRecipientExtension'
+UserDefinedForm_Controller:
+  extensions:
+   - 'UserDefinedForm_ControllerAttachmentFilter'
 CountryDropdownField:
   default_to_locale: false
   default_country: 'AU'
