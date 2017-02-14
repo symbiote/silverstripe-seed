@@ -118,7 +118,7 @@ UserDefinedForm_EmailRecipient:
     - 'UserDefinedFormEmailRecipientExtension'
 UserDefinedForm_Controller:
   extensions:
-   - 'UserDefinedForm_ControllerAttachmentFilter'
+   - 'UserDefinedForm_ControllerAttachmentFilterExtension'
 CountryDropdownField:
   default_to_locale: false
   default_country: 'AU'

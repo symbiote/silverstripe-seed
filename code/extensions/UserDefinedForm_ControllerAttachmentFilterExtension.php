@@ -5,7 +5,7 @@
  *
  * @author stephen
  */
-class UserDefinedForm_ControllerAttachmentFilter extends DataExtension {
+class UserDefinedForm_ControllerAttachmentFilterExtension extends DataExtension {
 
 	public function updateEmail($email, $recipient, $emailData) {
 		if ($recipient->SendEmailToFieldID) {
