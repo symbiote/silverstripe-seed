@@ -38,6 +38,7 @@
 		"nyeholt/silverstripe-ozzymental": "This supports the modular approach to building page content.",
 		"sheadawson/silverstripe-blocks": "This allows a modular approach to building a page layout.",
 		"tractorcow/silverstripe-dynamiccache": "This allows simple yet flexible caching out of the box for dynamic content, including forms.",
+        "silverstripe/advancedworkflow": "This allows a review and approve process for content publishing."
 
 		"andrelohmann-silverstripe/cache-backends": "AWS cache support.",
 		"nyeholt/silverstripe-restrictedcms": "AWS load support.",
