@@ -40,15 +40,15 @@ class ChildPageListBlock extends Block {
 					'AbsoluteSource',
 					_t('ChildPageListBock.SOURCEOPTION', 'Source option'),
 					array(
-						false => _t('ChildPageListBock.SOURCECURRENTPAGE', 'Current page being viewed'),
-						true => _t('ChildPageListBock.SOURCESPECIFICPAGE', 'A specific page')
+						0 => _t('ChildPageListBock.SOURCECURRENTPAGE', 'Current page being viewed'),
+						1 => _t('ChildPageListBock.SOURCESPECIFICPAGE', 'A specific page')
 					)
 				),
 				TreeDropdownField::create(
 					'SourceID',
 					_t('ChildPageListBock.SOURCEPAGE','Source page'),
 					'SiteTree'
-				)->displayIf("AbsoluteSource")->isEqualTo(1)->end(),
+				)->hideIf("AbsoluteSource")->isEqualTo(0)->end(),
 			)
 		);
 		if ($this->AbsoluteSource){
@@ -60,7 +60,7 @@ class ChildPageListBlock extends Block {
 						'ExcludeItems',
 						_t('ChildPageListBock.EXCLUDECHILDREN', 'Exclude these children'),
 						$kids->map('ID', 'Title'
-					))->displayIf("AbsoluteSource")->isEqualTo(1)->end()
+					))->hideIf("AbsoluteSource")->isEqualTo(0)->end()
 				);
 			}
 		}
