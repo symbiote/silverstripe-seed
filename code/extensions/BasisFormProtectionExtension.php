@@ -2,8 +2,37 @@
 
 class BasisFormProtectionExtension extends Extension
 {
+	/**
+	 *  Example of applying to pages with Page_Controller and forms
+	 *  with an 'updateForm' hook.
+	 *
+	 *	BasisFormProtectionExtension:
+	 *		controllers:
+	 *			- Page_Controller
+	 *
+	 * @config
+	 * @var array
+	 */
 	private static $controllers = array();
+
+	/**
+	 * @config
+	 * @var array
+	 */
 	private static $includes = array();
+
+	/**
+	 *  Example of excluding forms that definitely do not need
+	 *  anti-spam protection.
+	 *
+	 *	BasisFormProtectionExtension:
+	 *		# A listing form that uses GET methods.
+	 *		excludes:
+	 *			- 'ListFilterForm'
+	 *
+	 * @config
+	 * @var array
+	 */
 	private static $excludes = array();
 
 	public function updateForm()

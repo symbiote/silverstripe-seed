@@ -55,9 +55,6 @@ UserDefinedForm:
 UserForm:
   extensions:
     - BasisUserFormSpamProtectionExtension
-Form:
-  extensions:
-    - BasisFormProtectionExtension
 BasisFormProtectionExtension:
   controllers:
     - Page_Controller
