@@ -31,7 +31,8 @@
 		"silverstripe/multivaluefield": "~2.2",
 		"silverstripe/timepickerfield": "~1.0",
 		"unclecheese/betterbuttons": "~1.2",
-		"unclecheese/display-logic": "~1.4"
+		"unclecheese/display-logic": "~1.4",
+		"studiobonito/silverstripe-spamprotection-honeypot": "~1.1"
 	},
 	"suggest": {
 		"dnadesign/silverstripe-elemental": "This allows a modular approach to building page content.",

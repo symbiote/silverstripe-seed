@@ -44,6 +44,21 @@ GoogleSitemap:
   extensions:
     - MultisitesGoogleSitemapExtension
 ---
+Name: sisspamprotectionconfig
+After: 'framework/*','cms/*'
+---
+FormSpamProtectionExtension:
+  default_spam_protector: '\StudioBonito\SilverStripe\SpamProtection\Honeypot\SpamProtector\HoneypotSpamProtector'
+UserDefinedForm:
+  extensions:
+    - BasisUserDefinedFormSpamProtectionExtension
+UserForm:
+  extensions:
+    - BasisUserFormSpamProtectionExtension
+BasisFormProtectionExtension:
+  controllers:
+    - Page_Controller
+---
 Name: sisconfig
 After: 'framework/*','cms/*'
 ---
