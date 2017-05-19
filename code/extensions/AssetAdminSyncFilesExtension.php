@@ -6,9 +6,13 @@
 
 class AssetAdminSyncFilesExtension extends Extension {
 
-	public function updateEditForm($form) {
+	private static $enable_sync_files_button = false;
 
-		$form->Fields()->removeByName('SyncButton');
+	public function updateEditForm($form) {
+		$enable = Config::inst()->get('AssetAdmin', 'enable_sync_files_button');
+		if (!$enable){
+			$form->Fields()->removeByName('SyncButton');
+		}
 	}
 
 }
