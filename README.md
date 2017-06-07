@@ -43,7 +43,7 @@ This provides searchable content tagging (using taxonomy terms).
 
 ### [Google Sitemaps](https://github.com/wilr/silverstripe-googlesitemaps/)
 
-This provides an automatically generated XML sitemap across your site/s, helping them rank higher with search engines.
+This provides an automatically generated XML sitemap for your site/s, helping them rank higher with search engines.
 
 ### [Grid Field Extensions](https://github.com/silverstripe-australia/silverstripe-gridfieldextensions/)
 
@@ -79,7 +79,7 @@ This provides the ability to manage multiple sites from your site tree.
 
 ### [Multisites Google Analytics](https://github.com/sheadawson/silverstripe-multisites-googleanalytics/)
 
-This provides google analytics support across your site/s.
+This provides google analytics support for your site/s.
 
 ### [Queued Jobs](https://github.com/silverstripe-australia/silverstripe-queuedjobs/)
 
@@ -95,7 +95,7 @@ This provides the ability to restrict file access, similar to pages.
 
 ### [Sitemap](https://github.com/silverstripe-australia/silverstripe-sitemap/)
 
-This provides an automatically generated HTML sitemap across your site/s, helping them rank higher with search engines.
+This provides an automatically generated HTML sitemap for your site/s, helping them rank higher with search engines.
 
 ### [Taxonomy](https://github.com/silverstripe/silverstripe-taxonomy/)
 
