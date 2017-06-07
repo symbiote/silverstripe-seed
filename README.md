@@ -27,19 +27,19 @@ This provides more intuitive buttons when viewing data objects.
 
 ### [Data Change Tracker](https://github.com/silverstripe-australia/silverstripe-datachange-tracker/)
 
-This provides content change tracking across your site/s.
+This provides improved change tracking.
 
 ### [Display Logic](https://github.com/unclecheese/silverstripe-display-logic/)
 
-This provides the ability to automatically show/hide form fields based on conditions.
+This provides the ability to automatically show/hide form fields based on other form fields.
 
 ### [Extensible Search](https://github.com/nglasl/silverstripe-extensible-search/)
 
-This provides a search page instance for user customisation and developer extension across your site/s, including analytics and suggestions.
+This provides a search page for user customisation and developer extension, including analytics and suggestions.
 
 ### [Fusion](https://github.com/nglasl/silverstripe-fusion/)
 
-This provides searchable content tagging across your site/s.
+This provides searchable content tagging.
 
 ### [Google Sitemaps](https://github.com/wilr/silverstripe-googlesitemaps/)
 
@@ -55,7 +55,7 @@ This provides the ability to group the CMS menu, helping clean up the interface 
 
 ### [Honeypot Spam Protection](https://github.com/studiobonito/silverstripe-spamprotection-honeypot/)
 
-This provides a simple means of spam protection across your site/s forms, and is automatically applied to user forms.
+This provides a simple means of spam protection across forms, and is automatically applied to user forms.
 
 ### [Linkable](https://github.com/sheadawson/silverstripe-linkable/)
 
@@ -63,11 +63,11 @@ This provides a simple object that can handle internal and external links, witho
 
 ### [Listing Page](https://github.com/nyeholt/silverstripe-listingpage/)
 
-This provides a page across your site/s to display arbitrary listings.
+This provides a page to display arbitrary listings.
 
 ### [Mediawesome](https://github.com/nglasl/silverstripe-mediawesome/)
 
-This provides dynamic media holders and pages across your site/s with customisable attributes, such as blogs and news.
+This provides dynamic media holders and pages with customisable attributes, such as blogs and news.
 
 ### [Metadata](https://github.com/silverstripe-australia/silverstripe-metadata/)
 
@@ -75,7 +75,7 @@ This provides the ability to annotate objects with metadata, based on a given sc
 
 ### [Multisites](https://github.com/silverstripe-australia/silverstripe-multisites/)
 
-The provides the ability to manage multiple sites from the site tree.
+This provides the ability to manage multiple sites from the site tree.
 
 ### [Multisites Google Analytics](https://github.com/sheadawson/silverstripe-multisites-googleanalytics/)
 
@@ -91,7 +91,7 @@ This provides the ability to create new data objects on the fly when using relat
 
 ### [Secure Assets](https://github.com/silverstripe/silverstripe-secureassets/)
 
-This provides access restrictions to files across your site/s, similar to pages.
+This provides access restrictions to files, similar to pages.
 
 ### [Sitemap](https://github.com/silverstripe-australia/silverstripe-sitemap/)
 
@@ -99,7 +99,7 @@ This provides an automatically generated HTML sitemap across your site/s, helpin
 
 ### [Taxonomy](https://github.com/silverstripe/silverstripe-taxonomy/)
 
-This provides nested content tagging across your site/s.
+This provides nested content tagging.
 
 ### [Timed Notices](https://github.com/sheadawson/silverstripe-timednotices/)
 
@@ -107,11 +107,11 @@ This provides the ability to display a message to specific CMS users for a speci
 
 ### [User Forms](https://github.com/silverstripe/silverstripe-userforms/)
 
-This provides a visual form builder across your site/s, that allows users to put their own forms together.
+This provides a visual form builder, allowing users to put their own forms together.
 
 ### [Versioned Files](https://github.com/silverstripe-australia/silverstripe-versionedfiles/)
 
-This provides versioning to files across your site/s, similar to pages.
+This provides versioning to files, similar to pages.
 
 ## Suggestions
 
