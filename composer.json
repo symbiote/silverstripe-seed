@@ -11,9 +11,11 @@
 		"nglasl/silverstripe-fusion": "~2.0",
 		"nglasl/silverstripe-mediawesome": "~2.0",
 		"sheadawson/multisites-googleanalytics": "~1.0",
+		"sheadawson/quickaddnew": "~1.1",
 		"sheadawson/silverstripe-linkable": "~1.0",
 		"sheadawson/silverstripe-timednotices": "dev-master",
 		"silverstripe-australia/datachange-tracker": "~3.2",
+		"silverstripe-australia/gridfieldextensions": "~1.0",
 		"silverstripe-australia/grouped-cms-menu": "~2.1",
 		"silverstripe-australia/metadata": "~3.0",
 		"silverstripe-australia/silverstripe-multisites": "~2.0",
@@ -24,22 +26,20 @@
 		"silverstripe/taxonomy": "~1.0",
 		"silverstripe/userforms": "~3.0",
 		"silverstripe/versionedfiles": "~1.0",
-		"wilr/silverstripe-googlesitemaps": "~1.6",
-
-		"sheadawson/quickaddnew": "~1.1",
-		"silverstripe-australia/gridfieldextensions": "~1.0",
-		"silverstripe/multivaluefield": "~2.2",
-		"silverstripe/timepickerfield": "~1.0",
+		"studiobonito/silverstripe-spamprotection-honeypot": "~1.2",
 		"unclecheese/betterbuttons": "~1.2",
 		"unclecheese/display-logic": "~1.4",
-		"studiobonito/silverstripe-spamprotection-honeypot": "~1.2"
+		"wilr/silverstripe-googlesitemaps": "~1.6",
+
+		"silverstripe/multivaluefield": "~2.2",
+		"silverstripe/timepickerfield": "~1.0"
 	},
 	"suggest": {
 		"dnadesign/silverstripe-elemental": "This allows a modular approach to building page content.",
 		"nyeholt/silverstripe-ozzymental": "This supports the modular approach to building page content.",
 		"sheadawson/silverstripe-blocks": "This allows a modular approach to building a page layout.",
-		"tractorcow/silverstripe-dynamiccache": "This allows simple yet flexible caching out of the box for dynamic content, including forms.",
 		"silverstripe/advancedworkflow": "This allows a review and approve process for content publishing.",
+		"tractorcow/silverstripe-dynamiccache": "This allows simple yet flexible caching out of the box for dynamic content, including forms.",
 
 		"andrelohmann-silverstripe/cache-backends": "AWS cache support.",
 		"nyeholt/silverstripe-restrictedcms": "AWS load support.",
