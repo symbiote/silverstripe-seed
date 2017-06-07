@@ -19,7 +19,7 @@ The recommended approach is to use composer, considering the large number of mod
 
 ## What's Included?
 
-Among some other quality of life improvements, the following modules are included.
+Among some quality of life improvements, you'll find the following modules included (and their benefits below).
 
 ### Better Buttons
 ### Data Change Tracker
