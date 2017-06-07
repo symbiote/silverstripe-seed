@@ -91,7 +91,7 @@ This provides the ability to create new data objects on the fly when using relat
 
 ### [Secure Assets](https://github.com/silverstripe/silverstripe-secureassets/)
 
-This provides access restrictions to files, similar to pages.
+This provides the ability to restrict file access, similar to pages.
 
 ### [Sitemap](https://github.com/silverstripe-australia/silverstripe-sitemap/)
 
