@@ -59,7 +59,7 @@ This provides a simple means of spam protection across forms (and is automatical
 
 ### [Linkable](https://github.com/sheadawson/silverstripe-linkable/)
 
-This provides an object that can easily handle links, without needing to worry about edge cases.
+This provides an object that can handle links, without you needing to worry about edge cases.
 
 ### [Listing Page](https://github.com/nyeholt/silverstripe-listingpage/)
 
