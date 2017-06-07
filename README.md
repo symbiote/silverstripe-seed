@@ -99,7 +99,7 @@ This provides an automatically generated HTML sitemap across your site/s, helpin
 
 ### [Taxonomy](https://github.com/silverstripe/silverstripe-taxonomy/)
 
-This provides nested content tagging (that are searchable using fusion).
+This provides nested content tagging (searchable using fusion).
 
 ### [Timed Notices](https://github.com/sheadawson/silverstripe-timednotices/)
 
