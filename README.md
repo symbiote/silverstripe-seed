@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/silverstripe-australia/silverstripe-ba-sis.svg?branch=master)](https://travis-ci.org/silverstripe-australia/silverstripe-ba-sis)
 
-> The recommended module compilation for a base project, which provides the most common, and what we consider to be the most fundamental components when building an intuitive and flexible platform, for both users and developers alike.
+> The recommended module compilation for a base project, which provides the most common, and what we consider to be, the most fundamental components when building an intuitive and flexible platform for both users and developers alike.
 
 These module dependencies will be updated over time, so please keep an eye out for future releases!
 
@@ -14,12 +14,12 @@ These module dependencies will be updated over time, so please keep an eye out f
 
 The recommended approach is to use composer, considering the large number of module dependencies.
 
-* [Place the module under your root project directory (including dependencies).](https://packagist.org/packages/silverstripe-australia/ba-sis)
+* [Place the module and dependencies under your root project directory.](https://packagist.org/packages/silverstripe-australia/ba-sis)
 * `/dev/build`
 
 ## What's Included?
 
-Among some quality of life improvements, the following modules are included for your convenience.
+Among some other quality of life improvements, the following modules are included.
 
 ### Better Buttons
 ### Data Change Tracker
@@ -47,7 +47,7 @@ Among some quality of life improvements, the following modules are included for 
 
 ## Suggestions
 
-You'll also find a number of modules that are suggested (more below), however these are optional, and depend on what you're trying to achieve.
+You'll also find a number of modules that are suggested (more below), however these are optional, and depend on what you're aiming to achieve.
 
 ### Advanced Workflow
 
