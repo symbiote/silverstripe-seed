@@ -27,11 +27,11 @@ This provides more intuitive buttons when viewing data objects.
 
 ### [Data Change Tracker](https://github.com/silverstripe-australia/silverstripe-datachange-tracker/)
 
-This provides improved change tracking.
+This provides improved content change tracking.
 
 ### [Display Logic](https://github.com/unclecheese/silverstripe-display-logic/)
 
-This provides the ability to automatically show/hide form fields based on other form fields.
+This provides the ability to automatically show/hide form fields based on conditions.
 
 ### [Extensible Search](https://github.com/nglasl/silverstripe-extensible-search/)
 
@@ -39,7 +39,7 @@ This provides a search page for user customisation and developer extension, incl
 
 ### [Fusion](https://github.com/nglasl/silverstripe-fusion/)
 
-This provides searchable content tagging.
+This provides searchable content tagging (for taxonomy terms).
 
 ### [Google Sitemaps](https://github.com/wilr/silverstripe-googlesitemaps/)
 
@@ -55,15 +55,15 @@ This provides the ability to group the CMS menu, helping clean up the interface 
 
 ### [Honeypot Spam Protection](https://github.com/studiobonito/silverstripe-spamprotection-honeypot/)
 
-This provides a simple means of spam protection across forms, and is automatically applied to user forms.
+This provides a simple means of spam protection across forms (and is automatically applied to user forms).
 
 ### [Linkable](https://github.com/sheadawson/silverstripe-linkable/)
 
-This provides a simple object that can handle internal and external links, without needing to worry about edge cases.
+This provides an object that can easily handle links, without needing to worry about edge cases.
 
 ### [Listing Page](https://github.com/nyeholt/silverstripe-listingpage/)
 
-This provides a page to display arbitrary listings.
+This provides a page to display arbitrary content listings.
 
 ### [Mediawesome](https://github.com/nglasl/silverstripe-mediawesome/)
 
@@ -71,7 +71,7 @@ This provides dynamic media holders and pages with customisable attributes, such
 
 ### [Metadata](https://github.com/silverstripe-australia/silverstripe-metadata/)
 
-This provides the ability to annotate objects with metadata, based on a given schema.
+This provides the ability to annotate objects, based on a given schema.
 
 ### [Multisites](https://github.com/silverstripe-australia/silverstripe-multisites/)
 
@@ -99,15 +99,15 @@ This provides an automatically generated HTML sitemap across your site/s, helpin
 
 ### [Taxonomy](https://github.com/silverstripe/silverstripe-taxonomy/)
 
-This provides nested content tagging.
+This provides nested content tagging (that are searchable using fusion).
 
 ### [Timed Notices](https://github.com/sheadawson/silverstripe-timednotices/)
 
-This provides the ability to display a message to specific CMS users for a specified duration.
+This provides the ability to display a message to specific CMS users, for a specified duration.
 
 ### [User Forms](https://github.com/silverstripe/silverstripe-userforms/)
 
-This provides a visual form builder, allowing users to put their own forms together.
+This provides a visual form builder, allowing content authors to put their own forms together.
 
 ### [Versioned Files](https://github.com/silverstripe-australia/silverstripe-versionedfiles/)
 
