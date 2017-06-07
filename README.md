@@ -21,46 +21,46 @@ The recommended approach is to use composer, considering the large number of mod
 
 Among some quality of life improvements, you'll find the following modules included (and their benefits below).
 
-### Better Buttons
-### Data Change Tracker
-### Display Logic
-### Extensible Search
-### Fusion
-### Google Sitemaps
-### Grid Field Extensions
-### Grouped CMS Menu
-### Honeypot Spam Protection
-### Linkable
-### Listing Page
-### Mediawesome
-### Metadata
-### Multisites
-### Multisites Google Analytics
-### Queued Jobs
-### Quick Add New
-### Secure Assets
-### Sitemap
-### Taxonomy
-### Timed Notices
-### User Forms
-### Versioned Files
+### [Better Buttons](https://github.com/unclecheese/silverstripe-gridfield-betterbuttons/)
+### [Data Change Tracker](https://github.com/silverstripe-australia/silverstripe-datachange-tracker/)
+### [Display Logic](https://github.com/unclecheese/silverstripe-display-logic/)
+### [Extensible Search](https://github.com/nglasl/silverstripe-extensible-search/)
+### [Fusion](https://github.com/nglasl/silverstripe-fusion/)
+### [Google Sitemaps](https://github.com/wilr/silverstripe-googlesitemaps/)
+### [Grid Field Extensions](https://github.com/silverstripe-australia/silverstripe-gridfieldextensions/)
+### [Grouped CMS Menu](https://github.com/silverstripe-australia/silverstripe-grouped-cms-menu/)
+### [Honeypot Spam Protection](https://github.com/studiobonito/silverstripe-spamprotection-honeypot/)
+### [Linkable](https://github.com/sheadawson/silverstripe-linkable/)
+### [Listing Page](https://github.com/nyeholt/silverstripe-listingpage/)
+### [Mediawesome](https://github.com/nglasl/silverstripe-mediawesome/)
+### [Metadata](https://github.com/silverstripe-australia/silverstripe-metadata/)
+### [Multisites](https://github.com/silverstripe-australia/silverstripe-multisites/)
+### [Multisites Google Analytics](https://github.com/sheadawson/silverstripe-multisites-googleanalytics/)
+### [Queued Jobs](https://github.com/silverstripe-australia/silverstripe-queuedjobs/)
+### [Quick Add New](https://github.com/sheadawson/silverstripe-quickaddnew/)
+### [Secure Assets](https://github.com/silverstripe/silverstripe-secureassets/)
+### [Sitemap](https://github.com/silverstripe-australia/silverstripe-sitemap/)
+### [Taxonomy](https://github.com/silverstripe/silverstripe-taxonomy/)
+### [Timed Notices](https://github.com/sheadawson/silverstripe-timednotices/)
+### [User Forms](https://github.com/silverstripe/silverstripe-userforms/)
+### [Versioned Files](https://github.com/silverstripe-australia/silverstripe-versionedfiles/)
 
 ## Suggestions
 
 You'll also find a number of modules that are suggested (more below), however these are optional, and depend on what you're aiming to achieve.
 
-### Advanced Workflow
+### [Advanced Workflow](https://github.com/silverstripe-australia/silverstripe-advancedworkflow/)
 
 This allows a review and approve process for content publishing.
 
-### Blocks
+### [Blocks](https://github.com/sheadawson/silverstripe-blocks/)
 
 This allows a modular approach to building a page layout.
 
-### Dynamic Cache
+### [Dynamic Cache](https://github.com/tractorcow/silverstripe-dynamiccache/)
 
 This allows simple yet flexible caching out of the box for dynamic content, including forms.
 
-### Elemental
+### [Elemental](https://github.com/dnadesign/silverstripe-elemental/)
 
 This allows a modular approach to building page content.
