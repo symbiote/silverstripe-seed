@@ -39,7 +39,7 @@ This provides a search page for user customisation and developer extension, incl
 
 ### [Fusion](https://github.com/nglasl/silverstripe-fusion/)
 
-This provides searchable content tagging (for taxonomy terms).
+This provides searchable content tagging (using taxonomy terms).
 
 ### [Google Sitemaps](https://github.com/wilr/silverstripe-googlesitemaps/)
 
@@ -55,11 +55,11 @@ This provides the ability to group the CMS menu, helping clean up the interface 
 
 ### [Honeypot Spam Protection](https://github.com/studiobonito/silverstripe-spamprotection-honeypot/)
 
-This provides a simple means of spam protection across forms (and is automatically applied to user forms).
+This provides a simple means of spam protection across forms, and is automatically applied to user forms.
 
 ### [Linkable](https://github.com/sheadawson/silverstripe-linkable/)
 
-This provides an object that can handle links, without you needing to worry about edge cases.
+This provides an object that can help manage links, without needing to worry about edge cases.
 
 ### [Listing Page](https://github.com/nyeholt/silverstripe-listingpage/)
 
@@ -67,15 +67,15 @@ This provides a page to display arbitrary content listings.
 
 ### [Mediawesome](https://github.com/nglasl/silverstripe-mediawesome/)
 
-This provides dynamic media holders and pages with customisable attributes, such as blogs and news.
+This provides dynamic media holders/pages with customisable attributes, such as blogs and news.
 
 ### [Metadata](https://github.com/silverstripe-australia/silverstripe-metadata/)
 
-This provides the ability to annotate objects, based on a given schema.
+This provides the ability to annotate data objects, based on a given schema.
 
 ### [Multisites](https://github.com/silverstripe-australia/silverstripe-multisites/)
 
-This provides the ability to manage multiple sites from the site tree.
+This provides the ability to manage multiple sites from your site tree.
 
 ### [Multisites Google Analytics](https://github.com/sheadawson/silverstripe-multisites-googleanalytics/)
 
