@@ -1,5 +1,5 @@
 {
-	"name": "silverstripe-australia/ba-sis",
+	"name": "symbiote/silverstripe-seed",
 	"description": "SilverStripe Australia Standard Implementation Set.",
 	"type": "silverstripe-module",
 	"license": "BSD-3-Clause",
@@ -50,7 +50,7 @@
 	},
 	"extra": {
 		"branch-alias": {
-			"dev-master": "6.3.x-dev"
+			"dev-master": "7.0.x-dev"
 		}
 	},
 	"minimum-stability": "dev"
