@@ -1,12 +1,12 @@
 <?php
 
-class BasisFormProtectionExtension extends Extension
+class SeedFormProtectionExtension extends Extension
 {
 	/**
 	 *  Example of applying to pages with Page_Controller and forms
 	 *  with an 'updateForm' hook.
 	 *
-	 *	BasisFormProtectionExtension:
+	 *	SeedFormProtectionExtension:
 	 *		controllers:
 	 *			- Page_Controller
 	 *
@@ -25,7 +25,7 @@ class BasisFormProtectionExtension extends Extension
 	 *  Example of excluding forms that definitely do not need
 	 *  anti-spam protection.
 	 *
-	 *	BasisFormProtectionExtension:
+	 *	SeedFormProtectionExtension:
 	 *		# A listing form that uses GET methods.
 	 *		excludes:
 	 *			- 'ListFilterForm'

@@ -1,6 +1,6 @@
 <?php
 
-class BasisUserFormSpamProtectionExtension extends Extension
+class SeedUserFormSpamProtectionExtension extends Extension
 {
 	public function updateForm()
 	{

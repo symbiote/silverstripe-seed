@@ -1,6 +1,6 @@
-# [Basis](https://packagist.org/packages/symbiote/silverstripe-seed)
+# [Seed](https://packagist.org/packages/symbiote/silverstripe-seed)
 
-[![Build Status](https://travis-ci.org/silverstripe-australia/silverstripe-ba-sis.svg?branch=master)](https://travis-ci.org/silverstripe-australia/silverstripe-ba-sis)
+[![Build Status](https://travis-ci.org/symbiote/silverstripe-seed.svg?branch=master)](https://travis-ci.org/symbiote/silverstripe-seed)
 
 > The recommended module compilation for a base project, which provides the most common, and what we consider to be, the most fundamental components when building an intuitive and flexible platform for both users and developers alike.
 
@@ -25,7 +25,7 @@ Among some quality of life improvements, you'll find the following modules inclu
 
 This provides more intuitive buttons when viewing data objects.
 
-### [Data Change Tracker](https://github.com/silverstripe-australia/silverstripe-datachange-tracker/)
+### [Data Change Tracker](https://github.com/symbiote/silverstripe-datachange-tracker/)
 
 This provides improved content change tracking.
 
@@ -45,11 +45,11 @@ This provides searchable content tagging (using taxonomy terms).
 
 This provides an automatically generated XML sitemap for your site/s, helping them rank higher with search engines.
 
-### [Grid Field Extensions](https://github.com/silverstripe-australia/silverstripe-gridfieldextensions/)
+### [Grid Field Extensions](https://github.com/symbiote/silverstripe-gridfieldextensions/)
 
 This provides some handy grid field components, such as orderable rows.
 
-### [Grouped CMS Menu](https://github.com/silverstripe-australia/silverstripe-grouped-cms-menu/)
+### [Grouped CMS Menu](https://github.com/symbiote/silverstripe-grouped-cms-menu/)
 
 This provides the ability to group the CMS menu, helping clean up the interface for content authors and administrators.
 
@@ -69,7 +69,7 @@ This provides a page to display arbitrary content listings.
 
 This provides dynamic media holders/pages with customisable attributes, such as blogs and news.
 
-### [Metadata](https://github.com/silverstripe-australia/silverstripe-metadata/)
+### [Metadata](https://github.com/symbiote/silverstripe-metadata/)
 
 This provides the ability to annotate data objects, based on a given schema.
 
@@ -81,7 +81,7 @@ This provides the ability to manage multiple sites from your site tree.
 
 This provides google analytics support for your site/s.
 
-### [Queued Jobs](https://github.com/silverstripe-australia/silverstripe-queuedjobs/)
+### [Queued Jobs](https://github.com/symbiote/silverstripe-queuedjobs/)
 
 This provides the ability to schedule jobs that run at specific times/intervals.
 
@@ -93,7 +93,7 @@ This provides the ability to create new data objects on the fly when using relat
 
 This provides the ability to restrict file access, similar to pages.
 
-### [Sitemap](https://github.com/silverstripe-australia/silverstripe-sitemap/)
+### [Sitemap](https://github.com/symbiote/silverstripe-sitemap/)
 
 This provides an automatically generated HTML sitemap for your site/s, helping them rank higher with search engines.
 
@@ -109,7 +109,7 @@ This provides the ability to display a message to specific CMS users, for a spec
 
 This provides a visual form builder, allowing content authors to put their own forms together.
 
-### [Versioned Files](https://github.com/silverstripe-australia/silverstripe-versionedfiles/)
+### [Versioned Files](https://github.com/symbiote/silverstripe-versionedfiles/)
 
 This provides versioning to files, similar to pages.
 
@@ -117,7 +117,7 @@ This provides versioning to files, similar to pages.
 
 You'll also find a number of modules that are suggested (more below), however these are optional, and depend on what you're aiming to achieve.
 
-### [Advanced Workflow](https://github.com/silverstripe-australia/silverstripe-advancedworkflow/)
+### [Advanced Workflow](https://github.com/symbiote/silverstripe-advancedworkflow/)
 
 This allows a review and approve process for content publishing.
 

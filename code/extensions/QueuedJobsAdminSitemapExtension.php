@@ -2,7 +2,7 @@
 
 /**
  *	This extension removes the "generate google sitemap" job, since this conflicts with the google sitemap module.
- *	@author Nathan Glasl <nathan@silverstripe.com.au>
+ *	@author Nathan Glasl <nathan@symbiote.com.au>
  */
 
 class QueuedJobsAdminSitemapExtension extends Extension {

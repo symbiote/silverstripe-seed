@@ -1,8 +1,8 @@
 <?php
 /**
  * A menu item that is attached to a CustomMenuBlock
- * @author Shea Dawson <shea@silverstripe.com.au>
- * @package ba-sis
+ * @author Shea Dawson <shea@symbiote.com.au>
+ * @package silverstripe-seed
  **/
 class CustomMenuBlockItem extends Link {
 	

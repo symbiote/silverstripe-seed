@@ -1,5 +1,5 @@
 <?php
-class BasisTaxonomyTermExtension extends DataExtension {
+class SeedTaxonomyTermExtension extends DataExtension {
 
 	private static $api_access = true;
 
@@ -72,7 +72,7 @@ class BasisTaxonomyTermExtension extends DataExtension {
     }
 
     /**
-     * Default behaviour of ba-sis to only allow tagging
+     * Default behaviour of silverstripe-seed to only allow tagging
      * of taxonomies with parents. See 'get_source'.
      *
      * @return boolean

@@ -1,6 +1,6 @@
 {
 	"name": "symbiote/silverstripe-seed",
-	"description": "SilverStripe Australia Standard Implementation Set.",
+	"description": "Symbiote Standard Implementation Set.",
 	"type": "silverstripe-module",
 	"license": "BSD-3-Clause",
 	"require": {

@@ -51,11 +51,11 @@ FormSpamProtectionExtension:
   default_spam_protector: '\StudioBonito\SilverStripe\SpamProtection\Honeypot\SpamProtector\HoneypotSpamProtector'
 UserDefinedForm:
   extensions:
-    - BasisUserDefinedFormSpamProtectionExtension
+    - SeedUserDefinedFormSpamProtectionExtension
 UserForm:
   extensions:
-    - BasisUserFormSpamProtectionExtension
-BasisFormProtectionExtension:
+    - SeedUserFormSpamProtectionExtension
+SeedFormProtectionExtension:
   controllers:
     - Page_Controller
 ---
@@ -83,7 +83,7 @@ Link:
     - LinkExtension
 TaxonomyTerm:
   extensions:
-   - BasisTaxonomyTermExtension
+   - SeedTaxonomyTermExtension
 PaginatedList:
   extensions:
     - PaginatedListIterationExtension
@@ -114,7 +114,7 @@ LeftAndMain:
       - TimedNoticeAdmin
   menu_groups_alphabetical_sorting: true
   extra_requirements_css:
-    ba-sis/css/cms-custom.css:
+    silverstripe-seed/css/cms-custom.css:
       media: all
 PasswordField:
   autocomplete: false

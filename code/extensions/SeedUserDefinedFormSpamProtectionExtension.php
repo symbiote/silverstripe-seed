@@ -1,6 +1,6 @@
 <?php
 
-class BasisUserDefinedFormSpamProtectionExtension extends DataExtension
+class SeedUserDefinedFormSpamProtectionExtension extends DataExtension
 {
 	private static $db = array(
 		'DisableHoneypotProtection' => 'Boolean'

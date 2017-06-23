@@ -1,6 +1,6 @@
 FixtureLoader:
   preload_fixtures:
     metadatafixtures:
-      file: 'ba-sis/_config/aglsmetadatafixture.yml'
+      file: 'silverstripe-seed/_config/aglsmetadatafixture.yml'
       type: MetadataSchema
       filter: "Title = 'AGLS'"

@@ -6,8 +6,8 @@ if (!class_exists('Block')) {
 
 /**
  * A block that allows end users to manually build a custom (flat or nested) menu  
- * @author Shea Dawson <shea@silverstripe.com.au>
- * @package ba-sis
+ * @author Shea Dawson <shea@symbiote.com.au>
+ * @package silverstripe-seed
  **/
 class CustomMenuBlock extends Block {
 	
