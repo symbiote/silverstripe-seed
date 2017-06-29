@@ -53,5 +53,8 @@
 			"dev-master": "7.0.x-dev"
 		}
 	},
+	"replace": {
+		"silverstripe-australia/ba-sis": "self.version"
+	},
 	"minimum-stability": "dev"
 }
