@@ -49,6 +49,7 @@
 		"silverstripe/s3cdn": "AWS file support."
 	},
 	"extra": {
+		"installer-name": "seed",
 		"branch-alias": {
 			"dev-master": "6.3.x-dev"
 		}
