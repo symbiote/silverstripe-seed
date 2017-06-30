@@ -49,6 +49,7 @@
 		"symbiote/silverstripe-s3cdn": "AWS file support."
 	},
 	"extra": {
+		"installer-name": "seed",
 		"branch-alias": {
 			"dev-master": "7.0.x-dev"
 		}
