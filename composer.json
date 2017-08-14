@@ -18,7 +18,7 @@
 		"symbiote/silverstripe-gridfieldextensions": "~1.0",
 		"symbiote/silverstripe-grouped-cms-menu": "~2.1",
 		"symbiote/silverstripe-metadata": "~3.0",
-		"symbiote/silverstripe-multisites": "~2.0",
+		"symbiote/silverstripe-multisites": "~4.0",
 		"symbiote/silverstripe-sitemap": "~1.0",
 		"silverstripe/listingpage": "~1.0",
 		"symbiote/silverstripe-queuedjobs": "~2.4",
