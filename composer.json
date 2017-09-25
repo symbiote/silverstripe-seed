@@ -41,12 +41,7 @@
 		"symbiote/silverstripe-advancedworkflow": "This allows a review and approve process for content publishing.",
 		"tractorcow/silverstripe-dynamiccache": "This allows simple yet flexible caching out of the box for dynamic content, including forms.",
 
-		"andrelohmann-silverstripe/cache-backends": "AWS cache support.",
-		"nyeholt/silverstripe-restrictedcms": "AWS load support.",
-		"silverstripe-australia/mailcapture": "AWS mail support.",
-		"symbiote/silverstripe-sesmail": "AWS mail support.",
-		"silverstripe-australia/silverstripe-sqs-jobqueue": "AWS queued job support.",
-		"symbiote/silverstripe-s3cdn": "AWS file support."
+		"symbiote/silverstripe-thrive": "This provides a set of modules for building sites in AWS."
 	},
 	"extra": {
 		"installer-name": "seed",
