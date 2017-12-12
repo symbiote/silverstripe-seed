@@ -13,7 +13,7 @@
 		"sheadawson/multisites-googleanalytics": "~1.0",
 		"sheadawson/quickaddnew": "~1.1",
 		"sheadawson/silverstripe-linkable": "~1.0",
-		"sheadawson/silverstripe-timednotices": "dev-master",
+		"sheadawson/silverstripe-timednotices": "~1.0",
 		"symbiote/silverstripe-datachange-tracker": "~3.2",
 		"symbiote/silverstripe-gridfieldextensions": "~1.0",
 		"symbiote/silverstripe-grouped-cms-menu": "~2.1",
