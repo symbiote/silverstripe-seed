@@ -1,5 +1,7 @@
 # [Seed](https://packagist.org/packages/symbiote/silverstripe-seed)
 
+test
+
 [![Build Status](https://travis-ci.org/symbiote/silverstripe-seed.svg?branch=master)](https://travis-ci.org/symbiote/silverstripe-seed)
 
 > The recommended module compilation for a base project, which provides the most common, and what we consider to be, the most fundamental components when building an intuitive and flexible platform for both users and developers alike.
